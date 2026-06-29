@@ -1,2 +1,23 @@
+# Search indexing is blocked via the page's <meta name="robots" content="noindex"> tag.
+# Allow link-preview scrapers so KakaoTalk / SNS share thumbnails work.
+User-agent: kakaotalk-scrap
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Slackbot-LinkExpanding
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+# Everyone else: please don't crawl this preview site.
 User-agent: *
 Disallow: /
