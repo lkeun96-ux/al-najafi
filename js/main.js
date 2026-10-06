@@ -80,7 +80,7 @@
                 });
             } else {
                 lightboxSets[key] = srcList(g.items);
-                html += '<div class="gallery-grid" data-grid="' + key + '">';
+                html += '<div class="gallery-grid' + (g.square ? " square" : "") + '" data-grid="' + key + '">';
                 g.items.forEach((it, idx) => { html += galleryItemHTML(it, idx); });
                 html += "</div>";
             }

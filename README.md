@@ -16,7 +16,7 @@ al-najafi/
 
 현재 갤러리는 전달해주신 실제 사진(차량/부품/사업장)으로 채워져 있습니다.
 - **차량(vehicles)**: 보유 차량 `veh-yard-*.jpg`, 수출 적재 `veh-export-*.jpg`
-- **부품(parts)**: `part-1.jpg` ~ `part-15.jpg`
+- **부품(parts)**: `part-1.jpg` ~ `part-39.jpg` (정사각 제품 사진, 갤러리도 1:1 썸네일)
 - **사업장(facility)**: `fac-1.jpg` ~ `fac-8.jpg`
 - 히어로 `hero.jpg`, 소개 `about.jpg`
 
