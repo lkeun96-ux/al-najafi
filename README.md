@@ -16,7 +16,7 @@ al-najafi/
 
 현재 갤러리는 전달해주신 실제 사진(차량/부품/사업장)으로 채워져 있습니다.
 - **차량(vehicles)**: 보유 차량 `veh-yard-*.jpg`, 수출 적재 `veh-export-*.jpg`
-- **부품(parts)**: `part-1.jpg` ~ `part-39.jpg` (정사각 제품 사진, 갤러리도 1:1 썸네일)
+- **부품(parts)**: `part-1.jpg` ~ `part-30.jpg` (1:1 썸네일, 흰 배경 위 전체 표시)
 - **사업장(facility)**: `fac-1.jpg` ~ `fac-8.jpg`
 - 히어로 `hero.jpg`, 소개 `about.jpg`
 
@@ -37,7 +37,7 @@ yard: {
 > HTML을 건드릴 필요 없이 `data.js` 한 곳만 수정하면 갤러리 그리드·라이트박스에 모두 반영됩니다.
 
 히어로/소개/제품 카드의 대표 이미지는 `index.html`에서 `images/hero.jpg`, `images/about.jpg`,
-`images/veh-yard-3.jpg`, `images/part-1.jpg`, `images/fac-1.jpg` 경로를 바꾸면 됩니다.
+`images/veh-yard-3.jpg`, `images/part-16.jpg`, `images/fac-1.jpg` 경로를 바꾸면 됩니다.
 
 ## 2) 텍스트 / 연락처 수정
 - 모든 문구는 `js/data.js`의 `I18N` 객체에 영어(en)·한국어(ko)·아랍어(ar)로 들어 있습니다.
